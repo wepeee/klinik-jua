@@ -1,0 +1,270 @@
+.register-sign-up {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.register-sign-up .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.register-sign-up .overlap-group {
+  position: relative;
+  width: 1339px;
+  height: 1024px;
+  left: 101px;
+}
+
+.register-sign-up .logo {
+  position: absolute;
+  width: 571px;
+  height: 458px;
+  top: 0;
+  left: 274px;
+}
+
+.register-sign-up .content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 168px;
+  left: 0;
+}
+
+.register-sign-up .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.register-sign-up .logo-rm {
+  position: relative;
+  width: 163px;
+  height: 83px;
+  object-fit: cover;
+}
+
+.register-sign-up .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.register-sign-up .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.register-sign-up .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 33px;
+  letter-spacing: 0;
+  line-height: 42.9px;
+  white-space: nowrap;
+}
+
+.register-sign-up .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h6-16px-regular-inter-font-family);
+  font-weight: var(--h6-16px-regular-inter-font-weight);
+  color: var(--x8a92a6-text-color-2);
+  font-size: var(--h6-16px-regular-inter-font-size);
+  letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+  line-height: var(--h6-16px-regular-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h6-16px-regular-inter-font-style);
+}
+
+.register-sign-up .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.register-sign-up .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.register-sign-up .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.register-sign-up .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h6-16px-regular-inter-font-family);
+  font-weight: var(--h6-16px-regular-inter-font-weight);
+  color: var(--x8a92a6-text-color-2);
+  font-size: var(--h6-16px-regular-inter-font-size);
+  letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+  line-height: var(--h6-16px-regular-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h6-16px-regular-inter-font-style);
+}
+
+.register-sign-up .email-input {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.register-sign-up .email-input-2 {
+  border-color: #000000;
+  position: relative;
+  width: 250px;
+  height: 33px;
+  padding: 10px;
+  flex: 0 0 auto;
+  background-color: var(--ffffff-bg-1);
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.register-sign-up .email-input-3 {
+  border-color: #1e1e1e;
+  position: relative;
+  width: 250px;
+  height: 33px;
+  padding: 10px;
+  flex: 0 0 auto;
+  background-color: var(--ffffff-bg-1);
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.register-sign-up .img {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.register-sign-up .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 24px;
+  background-color: #318161;
+  border-radius: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.register-sign-up .text-wrapper-4 {
+  position: relative;
+  width: 140px;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.register-sign-up .username-or-email {
+  color: var(--x232d42-text-color-1);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h6-16px-regular-inter-font-family);
+  font-weight: var(--h6-16px-regular-inter-font-weight);
+  font-size: var(--h6-16px-regular-inter-font-size);
+  letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+  line-height: var(--h6-16px-regular-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h6-16px-regular-inter-font-style);
+}
+
+.register-sign-up .already-have-an {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h6-16px-regular-inter-font-family);
+  font-weight: var(--h6-16px-regular-inter-font-weight);
+  color: transparent;
+  font-size: var(--h6-16px-regular-inter-font-size);
+  letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+  line-height: var(--h6-16px-regular-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h6-16px-regular-inter-font-style);
+}
+
+.register-sign-up .span {
+  color: #232d42;
+  font-family: var(--h6-16px-regular-inter-font-family);
+  font-style: var(--h6-16px-regular-inter-font-style);
+  font-weight: var(--h6-16px-regular-inter-font-weight);
+  letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+  line-height: var(--h6-16px-regular-inter-line-height);
+  font-size: var(--h6-16px-regular-inter-font-size);
+}
+
+.register-sign-up .text-wrapper-5 {
+  color: #3a57e8;
+  font-family: var(--h6-16px-regular-inter-font-family);
+  font-style: var(--h6-16px-regular-inter-font-style);
+  font-weight: var(--h6-16px-regular-inter-font-weight);
+  letter-spacing: var(--h6-16px-regular-inter-letter-spacing);
+  line-height: var(--h6-16px-regular-inter-line-height);
+  font-size: var(--h6-16px-regular-inter-font-size);
+}
+
+.register-sign-up .image {
+  position: absolute;
+  width: 714px;
+  height: 1024px;
+  top: 0;
+  left: 625px;
+  object-fit: cover;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:hover {
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
+}

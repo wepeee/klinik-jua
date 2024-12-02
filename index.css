@@ -1,0 +1,211 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Default styling for the body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.navbar-nav a {
+    margin: auto;
+    text-decoration: none;
+    color: #333;
+}
+
+.login a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3CBF00; /* Ubah sesuai kebutuhan */
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Menu Hamburger */
+.menu-hamburger {
+    display: none; /* Sembunyikan secara default */
+    cursor: pointer; /* Pointer untuk menunjukkan interaksi */
+}
+
+.navbar-nav a:hover {
+    color: #007bff;
+}
+
+/* Main content */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.about-kita {
+    max-width: 600px;
+}
+
+.gambar-rs img {
+    width: 100%;
+    height: auto;
+    max-width: 580px; /* Adjusted to keep image size */
+}
+
+.see-more a {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    background-color: #3CBF00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Styling for service section */
+.component {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.content-layanan {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.isi-content {
+    background-color: white;
+    padding: 20px;
+    width: calc(25% - 40px); /* 4 items in a row for large screens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.isi-content img {
+    width: 100%;
+    height: auto;
+}
+
+/* Information Section */
+.container-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-content-informasi {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #DDFECE;
+    color: #000000;
+    flex-wrap: wrap; /* Ensure footer items wrap on smaller screens */
+}
+
+/* Media Queries for Responsive Design */
+
+/* For small devices (smartphones) */
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none; /* Sembunyikan menu navbar secara default */
+        flex-direction: column; /* Mengubah menjadi kolom */
+        width: 100%; /* Lebar penuh */
+        padding: 10px 0; /* Spasi di sekitar */
+    }
+    
+    .navbar {
+        flex-direction: column; /* Ubah menjadi kolom */
+        align-items: flex-start; /* Rata kiri */
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav.active {
+        display: flex; /* Tampilkan menu ketika diaktifkan */
+    }
+
+    .navbar-nav a {
+        margin: 5px 0; /* Spasi antar link */
+    }
+
+    .menu-hamburger {
+        display: block; /* Menampilkan menu hamburger pada perangkat kecil */
+    }
+
+    .about-kita, .gambar-rs img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-layanan {
+        flex-direction: column; /* Stack vertically */
+        align-items: center;
+    }
+
+    .isi-content {
+        width: 100%; /* Full width on small devices */
+        max-width: 90%; /* Prevent it from being too wide */
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .kontak {
+        margin: 10px 0;
+    }
+
+    .lokasi {
+        margin: 10px 0;
+    }
+}
+
+/* For medium devices (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .isi-content {
+        width: calc(50% - 40px); /* 2 items in a row */
+    }
+
+    .container-content-informasi {
+        max-width: 45%; /* Keep some spacing */
+    }
+}
+
+/* For large devices (desktops) */
+@media (min-width: 1025px) {
+    .isi-content {
+        width: calc(25% - 40px); /* 4 items in a row */
+    }
+}

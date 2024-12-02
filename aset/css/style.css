@@ -1,0 +1,397 @@
+:root{
+    --background:rgb(221, 250, 212);
+    --main2:#ffff;
+    --txt:black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 60%;
+    overflow-x: hidden;   
+}
+body{
+    background: #DDFAD4;
+background: radial-gradient(circle farthest-corner at center center, #DDFAD4 20%, #FFFFFF 100%);
+
+    min-height: 100vh;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    padding: 1rem 2% 1rem;
+    background: rgba(255, 255, 255, 0.2); 
+    border-bottom: 1px solid rgba(0, 153, 81, 0.8);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    color: var(--txt);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.navbar .logo{
+    width: 163px;
+    height: 83px;
+    background: none;
+    background-color: transparent;
+}
+.navbar .navbar-nav{
+   text-align: center;
+   padding-left: 810px;
+
+}
+
+.navbar .navbar-nav a{
+    font-size: 1.8rem;
+    padding: 8px;
+    font-weight: 500;
+    color: var(--txt);
+    transition: 0.2s ease-in-out;
+}
+.navbar .navbar-nav a:hover{
+    border-radius: 8px;
+    background: rgba(0, 153, 81, 0.8);
+    color: var(--main2);
+}
+
+.login a{
+    color: white; 
+    font-size: 1.8rem;
+    font-weight: 500; 
+    padding: 10px 24px; 
+    border-radius: 12px; 
+    background-color: rgba(0, 153, 81, 1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.login a:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 153, 81, 0.8);
+}
+
+
+/* isi content */
+.content {
+    display: flex;
+    padding-top: 200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px;
+}
+
+.about-kita {
+    max-width: 100%; 
+}
+
+.home-label h4 {
+    font-size: 14px;
+    color: #356a47; 
+    margin-bottom: 20px;
+    background-color: #b9d8b788;
+    border-radius: 20px;
+    padding: 8px;
+    width: 400px;
+    margin-bottom: 90px;
+}
+
+.title h1 {
+    font-size: 36px;
+    color: #283f3b;
+    margin-top: 50px;
+}
+
+.title p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #596f65;
+}
+
+.see-more a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #356a47;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 60px;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.see-more a:hover {
+    background-color: #28523d;
+    font-weight: 500;
+}
+
+.gambar-rs img {
+    border-radius: 15px;
+}
+
+/* component */
+.component{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, #283f3b 20%, #DDFAD4 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 12% 3rem;
+}
+
+.judul-layanan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+.judul-layanan h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #356a47;
+}
+.judul-layanan h3{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--txt);
+    /* padding-bottom: 50px; */
+}
+
+.content-layanan{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #283f3b; */
+    gap: 35px;
+    margin-bottom:30px;
+}
+.isi-content{
+    background: rgba(255, 255, 255, 0.2); 
+    border-bottom: 1px solid rgba(0, 153, 81, 0.8);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.isi-content:hover{
+    background-color: #283f3b;
+    color: #DDFAD4;
+    box-shadow: 0 0 25px var(--background),
+                0 0 50px var(--background),
+                0 0 100px var(--background);
+}
+
+.isi-gambar{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+.deskripsi-layanan{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.deskripsi-layanan h1{
+    font-size: 2rem;
+    font-weight: 690;
+}
+.deskripsi-layanan p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* content informasi */
+.content-informasi{
+    background-color: #283f3b;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-informasi .judul-informasi{
+    display: flex;
+    flex-direction: column;
+    color: #DDFAD4;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.content-informasi .judul-informasi h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.content-informasi .judul-informasi h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    ba
+}
+
+
+.content-informasi .container-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.content-informasi .container-content .container-content-informasi{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: end;
+    border-radius: 20px;
+    color: var(--main2);
+    width: 300px;
+    height: 410px;
+    background: rgba(255, 255, 255, 0.2); 
+    border-bottom: 1px solid rgba(0, 153, 81, 0.8);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 50px;
+}
+.content-informasi .container-content .container-content-informasi .deskripsi-informasi{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.content-informasi .container-content .container-content-informasi .deskripsi-informasi h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--main2);
+}
+.content-informasi .container-content .container-content-informasi .deskripsi-informasi p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.tombol-informasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 37px;
+    background-color: #2AAF2D;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.tombol-informasi a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #DDFAD4;
+    cursor: pointer;
+}
+.tombol-informasi i{
+    font-size: 2rem;
+}
+
+#ginjal{
+    background-image: url(/aset/img/ginjal.jpg);
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease, transform 0.5s ease;
+    overflow-x  : scale(1);
+    cursor: pointer;
+}
+#ginjal:hover{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+#terapi{
+    background-image: url(/aset/img/terapiGinjal.jpg);
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease,transform 0.5s ease;
+    overflow-x: scale(1);
+    cursor: pointer;
+}
+#terapi:hover{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+#monitoring{
+    background-image: url(https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/06/26022357/Selain-USG-Ini-Cara-Lain-Mendeteksi-Gangguan-Ginjal.jpg.webp);
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease, transform 0.5s ease;
+    overflow-x  : scale(1);
+    cursor: pointer;
+}
+#monitoring:hover{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+#diet{
+    background-image: url(/aset/img/monitoring.webp);
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease, transform 0.5s ease;
+    overflow-x  : scale(1);
+    cursor: pointer;
+}
+#diet:hover{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+footer .logo-di-footer{
+    width: 200px;
+    height: 100px;
+}
+footer .logo-di-footer img{
+    width: 200px;
+    height: 100px;
+}
+
+footer .kontak{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .kontak i{
+    font-size: 2.2rem;
+}
+footer .lokasi{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .lokasi iframe{
+    border-radius: 20px;
+}
+

@@ -1,0 +1,12 @@
+:root {
+    --x8a92a6-text-color-2: rgba(138, 146, 166, 1);
+    --ffffff-bg-1: rgba(255, 255, 255, 1);
+    --x232d42-text-color-1: rgba(35, 45, 66, 1);
+    --h6-16px-regular-inter-font-family: "Inter", Helvetica;
+    --h6-16px-regular-inter-font-weight: 400;
+    --h6-16px-regular-inter-font-size: 16px;
+    --h6-16px-regular-inter-letter-spacing: 0px;
+    --h6-16px-regular-inter-line-height: 175%;
+    --h6-16px-regular-inter-font-style: normal;
+    --system-colors-grays-black: rgba(0, 0, 0, 1);
+}

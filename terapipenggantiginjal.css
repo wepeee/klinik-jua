@@ -1,0 +1,1640 @@
+.terapi {
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.terapi .macam-terapi {
+  background-color: #e9ecef;
+  width: 1440px;
+  height: 1622px;
+  position: relative;
+}
+
+.terapi .header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+  height: 100px;
+  align-items: center;
+  gap: var(--size-space-600);
+  padding: var(--size-space-800);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-background-default-default);
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-color: var(--color-border-default-default);
+  background-color: #ffffff;
+}
+
+.terapi .logo-rm {
+  position: relative;
+  width: 163px;
+  height: 83px;
+  margin-top: -23.5px;
+  margin-bottom: -23.5px;
+  object-fit: cover;
+}
+
+.terapi .navigation-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--size-space-200);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.terapi .navigation-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: var(--size-radius-200);
+}
+
+.terapi .title {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-default-default);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.terapi .header-auth {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 178px;
+  align-items: center;
+  gap: var(--size-space-300);
+  position: relative;
+  background-color: -webkit-linear-gradient(left, #7FFF00, #7FFFD4);;
+}
+
+.terapi .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 102px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  background-color: var(--color-background-positive-hover);
+  border-radius: var(--size-radius-200);
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--color-icon-positive-on-positive);
+}
+
+.terapi .text-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-brand-on-brand);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.terapi .group {
+  position: absolute;
+  width: 1388px;
+  height: 1228px;
+  top: 355px;
+  left: 27px;
+}
+
+.terapi .overlap {
+  position: relative;
+  width: 1386px;
+  height: 1228px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.terapi .overlap-group {
+  position: absolute;
+  width: 1255px;
+  height: 714px;
+  top: 514px;
+  left: 52px;
+}
+
+.terapi .rectangle {
+  position: absolute;
+  width: 754px;
+  height: 624px;
+  top: 90px;
+  left: 0;
+}
+
+.terapi .group-wrapper {
+  position: absolute;
+  width: 753px;
+  height: 410px;
+  top: 19px;
+  left: 502px;
+}
+
+.terapi .div-wrapper {
+  height: 410px;
+}
+
+.terapi .div {
+  position: relative;
+  width: 759px;
+  height: 410px;
+}
+
+.terapi .text-wrapper-2 {
+  position: absolute;
+  width: 490px;
+  top: 0;
+  left: 16px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: normal;
+  color: #2DCF57;
+}
+
+.terapi .overlap-group-2 {
+  position: absolute;
+  width: 738px;
+  height: 373px;
+  top: 37px;
+  left: 15px;
+}
+
+.terapi .p {
+  position: absolute;
+  width: 738px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi .praktis-dialysis {
+  position: absolute;
+  width: 734px;
+  top: 86px;
+  left: 3px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi .line {
+  position: absolute;
+  width: 2px;
+  height: 397px;
+  top: -1px;
+  left: -1px;
+}
+
+.terapi .group-2 {
+  position: absolute;
+  width: 749px;
+  height: 219px;
+  top: 444px;
+  left: 502px;
+}
+
+.terapi .group-3 {
+  height: 219px;
+}
+
+.terapi .group-4 {
+  position: relative;
+  width: 753px;
+  height: 219px;
+}
+
+.terapi .resiko-infeksi-jika {
+  position: absolute;
+  width: 734px;
+  top: 36px;
+  left: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi .img {
+  position: absolute;
+  width: 2px;
+  height: 221px;
+  top: -1px;
+  left: -1px;
+}
+
+.terapi .rectangle-2 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 0;
+  left: 31px;
+  object-fit: cover;
+}
+
+.terapi .rectangle-3 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 347px;
+  left: 31px;
+}
+
+.terapi .peritoneal-dialisis {
+  position: absolute;
+  width: 747px;
+  top: 49px;
+  left: 553px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi .overlap-group-wrapper {
+  position: absolute;
+  width: 400px;
+  height: 390px;
+  top: 74px;
+  left: 74px;
+}
+
+.terapi .overlap-group-3 {
+  position: relative;
+  height: 390px;
+}
+
+.terapi .group-5 {
+  position: absolute;
+  width: 400px;
+  height: 390px;
+  top: 0;
+  left: 0;
+}
+
+.terapi .group-6 {
+  position: absolute;
+  width: 382px;
+  height: 106px;
+  top: 0;
+  left: 17px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.terapi .group-7 {
+  position: absolute;
+  width: 382px;
+  height: 106px;
+  top: 142px;
+  left: 18px;
+  background-color: #d5f7d5;
+  border-radius: 15px;
+}
+
+.terapi .group-8 {
+  position: absolute;
+  width: 382px;
+  height: 106px;
+  top: 284px;
+  left: 18px;
+  background-color: #d5f7d5;
+  border-radius: 15px;
+}
+
+.terapi .rectangle-4 {
+  position: absolute;
+  width: 7px;
+  height: 106px;
+  top: 0;
+  left: 0;
+  background-color: #019000;
+  border-radius: 30px;
+}
+
+.terapi .group-9 {
+  position: absolute;
+  width: 350px;
+  height: 318px;
+  top: 34px;
+  left: 48px;
+}
+
+.terapi .group-10 {
+  position: relative;
+  height: 318px;
+}
+
+.terapi .group-11 {
+  position: absolute;
+  width: 352px;
+  height: 36px;
+  top: 0;
+  left: 0;
+}
+
+.terapi .text-wrapper-3 {
+  position: absolute;
+  width: 350px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi .group-12 {
+  position: absolute;
+  width: 352px;
+  height: 36px;
+  top: 141px;
+  left: 0;
+}
+
+.terapi .group-13 {
+  position: absolute;
+  width: 350px;
+  height: 36px;
+  top: 282px;
+  left: 0;
+}
+
+.terapi .group-14 {
+  position: relative;
+  width: 352px;
+  height: 36px;
+}
+
+.terapi .tabel {
+  position: absolute;
+  width: 766px;
+  height: 250px;
+  top: 253px;
+  left: 554px;
+}
+
+.terapi .overlap-2 {
+  position: relative;
+  width: 754px;
+  height: 250px;
+}
+
+.terapi .rectangle-5 {
+  position: absolute;
+  width: 753px;
+  height: 65px;
+  top: 0;
+  left: 0;
+  background-color: #09c509;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.terapi .rectangle-6 {
+  position: absolute;
+  width: 753px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  border: 5px solid;
+  border-color: #000000;
+}
+
+.terapi .rectangle-7 {
+  position: absolute;
+  width: 753px;
+  height: 5px;
+  top: 65px;
+  left: 0;
+  background-color: #1e1e1e;
+}
+
+.terapi .rectangle-8 {
+  position: absolute;
+  width: 753px;
+  height: 5px;
+  top: 125px;
+  left: 1px;
+  background-color: #1e1e1e;
+}
+
+.terapi .rectangle-9 {
+  position: absolute;
+  width: 753px;
+  height: 5px;
+  top: 185px;
+  left: 1px;
+  background-color: #1e1e1e;
+}
+
+.terapi .rectangle-10 {
+  position: absolute;
+  width: 250px;
+  height: 5px;
+  top: 122px;
+  left: 252px;
+  background-color: #1e1e1e;
+  transform: rotate(-90deg);
+}
+
+.terapi .group-15 {
+  position: absolute;
+  width: 689px;
+  height: 60px;
+  top: 5px;
+  left: 11px;
+}
+
+.terapi .CAPD-continous {
+  position: absolute;
+  width: 357px;
+  top: 3px;
+  left: 0;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  line-height: normal;
+}
+
+.terapi .span {
+  letter-spacing: 0.06px;
+}
+
+.terapi .text-wrapper-4 {
+  font-size: 15px;
+  letter-spacing: 0.04px;
+}
+
+.terapi .APD-automated {
+  position: absolute;
+  width: 265px;
+  top: 0;
+  left: 420px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  line-height: normal;
+}
+
+.terapi .text-wrapper-5 {
+  position: absolute;
+  width: 349px;
+  top: 78px;
+  left: 19px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  line-height: normal;
+}
+
+.terapi .text-wrapper-6 {
+  position: absolute;
+  width: 349px;
+  top: 135px;
+  left: 19px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  line-height: normal;
+}
+
+.terapi .text-wrapper-7 {
+  position: absolute;
+  width: 349px;
+  top: 207px;
+  left: 19px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.terapi .text-wrapper-8 {
+  position: absolute;
+  width: 349px;
+  top: 135px;
+  left: 389px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  line-height: normal;
+}
+
+.terapi .text-wrapper-9 {
+  position: absolute;
+  width: 349px;
+  top: 207px;
+  left: 389px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.terapi .text-wrapper-10 {
+  position: absolute;
+  width: 349px;
+  top: 78px;
+  left: 389px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  line-height: normal;
+}
+
+.terapi .frame {
+  gap: 698px;
+  position: absolute;
+  top: 175px;
+  left: 110px;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.terapi .frame-2 {
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: flex-start;
+  background: -webkit-linear-gradient(left, #7FFF00, #7FFFD4);
+}
+
+.terapi .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h1-40px-bold-inter-font-family);
+  font-weight: var(--h1-40px-bold-inter-font-weight);
+  color: #000000;
+  font-size: var(--h1-40px-bold-inter-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-40px-bold-inter-letter-spacing);
+  line-height: var(--h1-40px-bold-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-40px-bold-inter-font-style);
+}
+
+.terapi .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h4-23px-medium-inter-font-family);
+  font-weight: var(--h4-23px-medium-inter-font-weight);
+  color: #000000;
+  font-size: var(--h4-23px-medium-inter-font-size);
+  text-align: center;
+  letter-spacing: var(--h4-23px-medium-inter-letter-spacing);
+  line-height: var(--h4-23px-medium-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-23px-medium-inter-font-style);
+}
+
+.terapi2 {
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background: -webkit-linear-gradient(left, #7FFF00, #7FFFD4);;
+}
+
+.terapi2 .macam-terapi {
+  background-color: #e9ecef;
+  width: 1440px;
+  height: 1607px;
+  position: relative;
+}
+
+
+.terapi2 .navigation-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--size-space-200);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.terapi2 .navigation-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: var(--size-radius-200);
+}
+
+.terapi2 .title {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-default-default);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.terapi2 .header-auth {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 178px;
+  align-items: center;
+  gap: var(--size-space-300);
+  position: relative;
+}
+
+.terapi2 .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 102px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  background-color: var(--color-background-positive-hover);
+  border-radius: var(--size-radius-200);
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--color-icon-positive-on-positive);
+}
+
+.terapi2 .text-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-brand-on-brand);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.terapi2 .group {
+  position: absolute;
+  width: 1386px;
+  height: 1212px;
+  top: 355px;
+  left: 27px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.terapi2 .overlap {
+  position: absolute;
+  width: 1250px;
+  height: 695px;
+  top: 517px;
+  left: 59px;
+}
+
+.terapi2 .rectangle {
+  position: absolute;
+  width: 754px;
+  height: 607px;
+  top: 88px;
+  left: 0;
+}
+
+.terapi2 .group-wrapper {
+  position: absolute;
+  width: 749px;
+  height: 251px;
+  top: 25px;
+  left: 501px;
+}
+
+.terapi2 .div-wrapper {
+  height: 251px;
+}
+
+.terapi2 .div {
+  position: relative;
+  width: 753px;
+  height: 251px;
+}
+
+.terapi2 .text-wrapper-2 {
+  position: absolute;
+  width: 490px;
+  top: 0;
+  left: 16px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: normal;
+  color: #2DCF57;
+}
+
+.terapi2 .tusukan-jarum {
+  position: absolute;
+  width: 734px;
+  top: 36px;
+  left: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi2 .line {
+  position: absolute;
+  width: 2px;
+  height: 223px;
+  top: -1px;
+  left: -1px;
+}
+
+.terapi2 .img {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 0;
+  left: 31px;
+  object-fit: cover;
+}
+
+.terapi2 .rectangle-2 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 345px;
+  left: 31px;
+}
+
+.terapi2 .group-2 {
+  position: absolute;
+  width: 751px;
+  height: 252px;
+  top: 50px;
+  left: 560px;
+}
+
+.terapi2 .hemodialisis-HD {
+  position: absolute;
+  width: 747px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi2 .dua-jarum-suntik {
+  position: absolute;
+  width: 747px;
+  top: 136px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi2 .overlap-group-wrapper {
+  position: absolute;
+  width: 400px;
+  height: 390px;
+  top: 75px;
+  left: 81px;
+}
+
+.terapi2 .overlap-group {
+  position: relative;
+  height: 390px;
+}
+
+.terapi2 .group-3 {
+  position: absolute;
+  width: 400px;
+  height: 390px;
+  top: 0;
+  left: 0;
+}
+
+.terapi2 .group-4 {
+  position: absolute;
+  width: 382px;
+  height: 106px;
+  top: 0;
+  left: 17px;
+  background-color: #d6f8d6;
+  border-radius: 15px;
+}
+
+.terapi2 .group-5 {
+  position: absolute;
+  width: 382px;
+  height: 106px;
+  top: 142px;
+  left: 18px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.terapi2 .group-6 {
+  position: absolute;
+  width: 382px;
+  height: 106px;
+  top: 284px;
+  left: 18px;
+  background-color: #d5f7d5;
+  border-radius: 15px;
+}
+
+.terapi2 .rectangle-3 {
+  position: absolute;
+  width: 7px;
+  height: 106px;
+  top: 140px;
+  left: 0;
+  background-color: #019000;
+  border-radius: 30px;
+}
+
+.terapi2 .group-7 {
+  position: absolute;
+  width: 350px;
+  height: 318px;
+  top: 34px;
+  left: 48px;
+}
+
+.terapi2 .group-8 {
+  position: relative;
+  height: 318px;
+}
+
+.terapi2 .group-9 {
+  position: absolute;
+  width: 352px;
+  height: 36px;
+  top: 0;
+  left: 0;
+}
+
+.terapi2 .text-wrapper-3 {
+  position: absolute;
+  width: 350px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi2 .group-10 {
+  position: absolute;
+  width: 352px;
+  height: 36px;
+  top: 141px;
+  left: 0;
+}
+
+.terapi2 .group-11 {
+  position: absolute;
+  width: 350px;
+  height: 36px;
+  top: 282px;
+  left: 0;
+}
+
+.terapi2 .group-12 {
+  position: relative;
+  width: 352px;
+  height: 36px;
+}
+
+.terapi2 .group-13 {
+  position: absolute;
+  width: 752px;
+  height: 180px;
+  top: 332px;
+  left: 556px;
+}
+
+.terapi2 .group-14 {
+  height: 180px;
+}
+
+.terapi2 .group-15 {
+  position: relative;
+  width: 756px;
+  height: 180px;
+}
+
+.terapi2 .overlap-group-2 {
+  position: absolute;
+  width: 734px;
+  height: 174px;
+  top: 0;
+  left: 18px;
+}
+
+.terapi2 .text-wrapper-4 {
+  position: absolute;
+  width: 490px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: normal;
+  color: #2DCF57;
+}
+
+.terapi2 .umumnya-sesi {
+  position: absolute;
+  width: 731px;
+  top: 31px;
+  left: 3px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi2 .line-2 {
+  position: absolute;
+  width: 2px;
+  height: 182px;
+  top: -1px;
+  left: -1px;
+}
+
+.terapi2 .frame {
+  gap: 698px;
+  position: absolute;
+  top: 175px;
+  left: 86px;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.terapi2 .frame-2 {
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.terapi2 .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h1-40px-bold-inter-font-family);
+  font-weight: var(--h1-40px-bold-inter-font-weight);
+  color: #000000;
+  font-size: var(--h1-40px-bold-inter-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-40px-bold-inter-letter-spacing);
+  line-height: var(--h1-40px-bold-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-40px-bold-inter-font-style);
+}
+
+.terapi2 .p {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h4-23px-medium-inter-font-family);
+  font-weight: var(--h4-23px-medium-inter-font-weight);
+  color: #000000;
+  font-size: var(--h4-23px-medium-inter-font-size);
+  text-align: center;
+  letter-spacing: var(--h4-23px-medium-inter-letter-spacing);
+  line-height: var(--h4-23px-medium-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-23px-medium-inter-font-style);
+}
+
+.terapi3 {
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.terapi3 .macam-terapi {
+  background-color: #e9ecef;
+  width: 1440px;
+  height: 1386px;
+  position: relative;
+}
+
+.terapi3 .header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+  height: 100px;
+  align-items: center;
+  gap: var(--size-space-600);
+  padding: var(--size-space-800);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-background-default-default);
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-style: none;
+  background-color: #ffffff;
+  border-color: var(--color-border-default-default);
+}
+
+.terapi3 .logo-rm {
+  position: relative;
+  width: 163px;
+  height: 83px;
+  margin-top: -23.5px;
+  margin-bottom: -23.5px;
+  object-fit: cover;
+}
+
+.terapi3 .navigation-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--size-space-200);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.terapi3 .navigation-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: var(--size-radius-200);
+}
+
+.terapi3 .title {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-default-default);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.terapi3 .header-auth {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 178px;
+  align-items: center;
+  gap: var(--size-space-300);
+  position: relative;
+}
+
+.terapi3 .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 102px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  background-color: var(--color-background-positive-hover);
+  border-radius: var(--size-radius-200);
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--color-icon-positive-on-positive);
+}
+
+.terapi3 .text-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-brand-on-brand);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.terapi3 .group {
+  position: absolute;
+  width: 1386px;
+  height: 991px;
+  top: 355px;
+  left: 27px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.terapi3 .overlap {
+  position: relative;
+  width: 1252px;
+  height: 941px;
+  top: 50px;
+  left: 52px;
+}
+
+.terapi3 .overlap-group {
+  position: absolute;
+  width: 1252px;
+  height: 916px;
+  top: 25px;
+  left: 0;
+}
+
+.terapi3 .div {
+  position: absolute;
+  width: 1252px;
+  height: 571px;
+  top: 345px;
+  left: 0;
+}
+
+.terapi3 .rectangle {
+  position: absolute;
+  width: 754px;
+  height: 386px;
+  top: 185px;
+  left: 0;
+}
+
+.terapi3 .group-wrapper {
+  position: absolute;
+  width: 751px;
+  height: 213px;
+  top: 0;
+  left: 501px;
+}
+
+.terapi3 .div-wrapper {
+  height: 213px;
+}
+
+.terapi3 .group-2 {
+  position: relative;
+  width: 755px;
+  height: 213px;
+}
+
+.terapi3 .overlap-group-2 {
+  position: absolute;
+  width: 733px;
+  height: 213px;
+  top: 0;
+  left: 18px;
+}
+
+.terapi3 .text-wrapper-2 {
+  position: absolute;
+  width: 490px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi3 .tidak-memerlukan {
+  position: absolute;
+  width: 731px;
+  top: 34px;
+  left: 2px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi3 .line {
+  position: absolute;
+  width: 2px;
+  height: 215px;
+  top: -1px;
+  left: -1px;
+}
+
+.terapi3 .group-3 {
+  position: absolute;
+  width: 749px;
+  height: 323px;
+  top: 242px;
+  left: 501px;
+}
+
+.terapi3 .group-4 {
+  height: 323px;
+}
+
+.terapi3 .group-5 {
+  position: relative;
+  width: 753px;
+  height: 323px;
+}
+
+.terapi3 .text-wrapper-3 {
+  position: absolute;
+  width: 490px;
+  top: 0;
+  left: 17px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi3 .mungkin-harus {
+  position: absolute;
+  width: 734px;
+  top: 36px;
+  left: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi3 .img {
+  position: absolute;
+  width: 2px;
+  height: 281px;
+  top: -1px;
+  left: -1px;
+}
+
+.terapi3 .rectangle-2 {
+  position: absolute;
+  width: 400px;
+  height: 182px;
+  top: 103px;
+  left: 31px;
+  object-fit: cover;
+}
+
+.terapi3 .overlap-group-wrapper {
+  position: absolute;
+  width: 400px;
+  height: 390px;
+  top: 0;
+  left: 22px;
+}
+
+.terapi3 .overlap-group-3 {
+  position: relative;
+  height: 390px;
+}
+
+.terapi3 .group-6 {
+  position: absolute;
+  width: 400px;
+  height: 390px;
+  top: 0;
+  left: 0;
+}
+
+.terapi3 .group-7 {
+  position: absolute;
+  width: 382px;
+  height: 106px;
+  top: 0;
+  left: 17px;
+  background-color: #d6f8d6;
+  border-radius: 15px;
+}
+
+.terapi3 .group-8 {
+  position: absolute;
+  width: 382px;
+  height: 106px;
+  top: 142px;
+  left: 18px;
+  background-color: #d6f8d6;
+  border-radius: 15px;
+}
+
+.terapi3 .group-9 {
+  position: absolute;
+  width: 382px;
+  height: 106px;
+  top: 284px;
+  left: 18px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.terapi3 .rectangle-3 {
+  position: absolute;
+  width: 7px;
+  height: 106px;
+  top: 281px;
+  left: 0;
+  background-color: #019000;
+  border-radius: 30px;
+}
+
+.terapi3 .group-10 {
+  position: absolute;
+  width: 350px;
+  height: 318px;
+  top: 34px;
+  left: 48px;
+}
+
+.terapi3 .group-11 {
+  position: relative;
+  height: 318px;
+}
+
+.terapi3 .group-12 {
+  position: absolute;
+  width: 352px;
+  height: 36px;
+  top: 0;
+  left: 0;
+}
+
+.terapi3 .text-wrapper-4 {
+  position: absolute;
+  width: 350px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi3 .group-13 {
+  position: absolute;
+  width: 352px;
+  height: 36px;
+  top: 141px;
+  left: 0;
+}
+
+.terapi3 .group-14 {
+  position: absolute;
+  width: 350px;
+  height: 36px;
+  top: 282px;
+  left: 0;
+}
+
+.terapi3 .group-15 {
+  position: relative;
+  width: 352px;
+  height: 36px;
+}
+
+.terapi3 .group-16 {
+  position: absolute;
+  width: 758px;
+  height: 340px;
+  top: 0;
+  left: 494px;
+}
+
+.terapi3 .p {
+  position: absolute;
+  width: 747px;
+  top: 0;
+  left: 7px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi3 .text-wrapper-5 {
+  position: absolute;
+  width: 747px;
+  top: 115px;
+  left: 7px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi3 .group-17 {
+  position: absolute;
+  width: 758px;
+  height: 147px;
+  top: 193px;
+  left: 0;
+}
+
+.terapi3 .donor-hidup-kerabat {
+  position: absolute;
+  width: 747px;
+  top: 31px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text);
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.terapi3 .frame {
+  gap: 698px;
+  position: absolute;
+  top: 175px;
+  left: 119px;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.terapi3 .frame-2 {
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.terapi3 .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h1-40px-bold-inter-font-family);
+  font-weight: var(--h1-40px-bold-inter-font-weight);
+  color: #000000;
+  font-size: var(--h1-40px-bold-inter-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-40px-bold-inter-letter-spacing);
+  line-height: var(--h1-40px-bold-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-40px-bold-inter-font-style);
+}
+
+.terapi3 .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h4-23px-medium-inter-font-family);
+  font-weight: var(--h4-23px-medium-inter-font-weight);
+  color: #000000;
+  font-size: var(--h4-23px-medium-inter-font-size);
+  text-align: center;
+  letter-spacing: var(--h4-23px-medium-inter-letter-spacing);
+  line-height: var(--h4-23px-medium-inter-line-height);
+  white-space: nowrap;
+  font-style: var(--h4-23px-medium-inter-font-style);
+}
